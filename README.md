@@ -20,7 +20,9 @@
 👤 Identity: _Undergraduate, Tech Practitioner_\
 💬 Languages: _Chinese, English (Very basic French, Japanese, Korean, Vietnamese)_\
 📚 Academic Interests: _Statistics, Linguistics, Computer Science, Artificial Intelligence_\
-🧩 Personal Hobbies: _Food, Hiking, Mountaineering, Anime_
+🧩 Personal Hobbies: _Food, Hiking, Mountaineering, Anime_\
+🌐 Philosophy I: _Embrace the open-source spirit._\
+🔧 Philosophy II: _Attach importance to the role of software engineering in Agent development._
 
 <div>&nbsp;</div>
 
@@ -33,12 +35,12 @@
 <img align="right" width="25%" src="./assets/wine.jpg" alt="">
 
 🍃 Empty your mind.\
-💧 Be formless, shapeless like water.\
+🫧 Be formless, shapeless like water.\
 🥤 You put water into a cup, it becomes the cup.\
 🍶 You put water into a bottle, it becomes the bottle.\
 🫖 You put water in a teapot, it becomes the teapot.\
-🫧 Water can flow or it can crash.\
-🌊 **Be water, my friend.**
+🌊 Water can flow or it can crash.\
+💧 **Be water, my friend.**
 
 <div>&nbsp;</div>
 
