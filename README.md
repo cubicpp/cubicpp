@@ -36,14 +36,11 @@ Water can flow or it can crash.\
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
-  <img width="600" src="./assets/metrics-light.svg" alt="cubicpp GitHub profile metrics">
+  <img width="366" height="280" src="./assets/metrics-light.svg" alt="cubicpp GitHub profile metrics">
 </picture>
-
-<br>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-  <img width="600" src="./profile-3d-contrib/profile-gitblock.svg" alt="cubicpp 3D contribution calendar and repository language statistics">
+  <img width="422" height="280" src="./profile-3d-contrib/profile-gitblock.svg" alt="cubicpp 3D contribution calendar and repository language statistics">
 </picture>
 
 <br>
