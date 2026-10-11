@@ -1,0 +1,69 @@
+name: Refresh classic profile metrics
+on:
+  schedule:
+    - cron: '43 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/metrics.yml]
+permissions:
+  contents: read
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      # A separate classic PAT is required by upstream; never substitute GITHUB_TOKEN.
+      # Until configured, keep the checked-in snapshot rather than failing other visuals.
+      - name: Explain unconfigured metrics
+        if: env.METRICS_TOKEN == ''
+        run: echo 'METRICS_TOKEN is not configured; keeping the current metrics snapshot.'
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        if: env.METRICS_TOKEN != ''
+      - name: Render light classic metrics
+        if: env.METRICS_TOKEN != ''
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: cubicpp
+          template: classic
+          base: header, activity, community, repositories, metadata
+          repositories_affiliations: owner
+          config_timezone: Asia/Shanghai
+          config_animations: no
+          filename: metrics-light.svg
+          output_action: none
+          use_prebuilt_image: false
+      - name: Render dark classic metrics
+        if: env.METRICS_TOKEN != ''
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: cubicpp
+          template: classic
+          base: header, activity, community, repositories, metadata
+          repositories_affiliations: owner
+          config_timezone: Asia/Shanghai
+          config_animations: no
+          extras_css: 'svg{color:#c9d1d9}h1,h2,h3,h4{color:#58a6ff}svg .field>svg{fill:#8b949e}footer{color:#8b949e}'
+          filename: metrics-dark.svg
+          output_action: none
+          use_prebuilt_image: false
+      - name: Save generated metrics
+        if: env.METRICS_TOKEN != ''
+        run: |
+          cp /metrics_renders/metrics-light.svg assets/metrics-light.svg
+          cp /metrics_renders/metrics-dark.svg assets/metrics-dark.svg
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add assets/metrics-light.svg assets/metrics-dark.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: refresh classic profile metrics"
+          git push

@@ -8,10 +8,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/coding.gif">
-  <img src="./assets/developer.svg" width="400" alt="">
+  <img src="./assets/developer.svg" width="280" alt="">
 </picture>
 
-<br>
+<div>&nbsp;</div>
+
+<table align="center">
+<tr><td></td></tr>
+<tr><td align="center">
 
 Empty your mind.\
 Be formless, shapeless like water.\
@@ -21,9 +25,19 @@ You put water in a teapot, it becomes the teapot.\
 Water can flow or it can crash.\
 **Be water, my friend.**
 
+</td></tr>
+</table>
+
 <br>
 
 <img width="100%" height="3" src="./assets/hr.gif" alt="">
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
+  <img width="800" src="./assets/metrics-light.svg" alt="cubicpp GitHub profile metrics">
+</picture>
 
 <br>
 
