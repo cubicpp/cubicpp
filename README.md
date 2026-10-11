@@ -6,16 +6,28 @@
   <img width="100%" src="./assets/capsule-header-light.svg" alt="">
 </picture>
 
+<table width="100%">
+<tr><td align="left">
+
+## 🙋About Me
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/coding.gif">
-  <img src="./assets/developer.svg" width="280" alt="">
+  <img align="right" src="./assets/developer.svg" width="25%" alt="">
 </picture>
+
+- Statistics, Linguistics, Computer Science, Artificial Intelligence
+- Food, Hiking, Mountaineering
 
 <div>&nbsp;</div>
 
-<table align="center">
-<tr><td></td></tr>
-<tr><td align="center">
+</td></tr>
+
+<tr><td align="left">
+
+## 🌊Words
+
+<img align="right" width="25%" src="./assets/wine.jpg" alt="">
 
 Empty your mind.\
 Be formless, shapeless like water.\
@@ -24,6 +36,8 @@ You put water into a bottle, it becomes the bottle.\
 You put water in a teapot, it becomes the teapot.\
 Water can flow or it can crash.\
 **Be water, my friend.**
+
+<div>&nbsp;</div>
 
 </td></tr>
 </table>
