@@ -16,8 +16,10 @@
   <img align="right" src="./assets/developer.svg" width="25%" alt="">
 </picture>
 
-- Statistics, Linguistics, Computer Science, Artificial Intelligence
-- Food, Hiking, Mountaineering
+- 📍 Location: Beijing
+- 👤 Identity: Undergraduate, Tech Worker
+- 📚 Academic Interests: Statistics, Linguistics, Computer Science, Artificial Intelligence
+- ⛰️ Personal Hobbies: Food, Hiking, Mountaineering
 
 <div>&nbsp;</div>
 
