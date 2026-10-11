@@ -53,14 +53,7 @@
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
-  <img width="366" height="280" src="./assets/metrics-light.svg" alt="cubicpp GitHub profile metrics">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-  <img width="422" height="280" src="./profile-3d-contrib/profile-gitblock.svg" alt="cubicpp 3D contribution calendar and repository language statistics">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg"><img width="46.48%" src="./assets/metrics-light.svg" alt="cubicpp GitHub profile metrics"></picture><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg"><img width="53.52%" src="./profile-3d-contrib/profile-gitblock.svg" alt="cubicpp 3D contribution calendar and repository language statistics"></picture>
 
 <br>
 
