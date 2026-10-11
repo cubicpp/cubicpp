@@ -26,7 +26,7 @@ jobs:
           outputs: |
             assets/snake-light.svg?palette=github
             assets/snake-dark.svg?palette=github-dark
-      - name: Refresh public data cards and activity
+      - name: Refresh decorative capsules
         run: python3 scripts/refresh.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

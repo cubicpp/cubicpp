@@ -28,31 +28,6 @@ Water can flow or it can crash.\
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
-  <img width="440" src="./assets/stats-light.svg" alt="cubicpp GitHub statistics">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg">
-  <img width="440" src="./assets/languages-light.svg" alt="cubicpp public repository languages">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg">
-  <img width="600" src="./assets/streak-light.svg" alt="cubicpp contribution streak">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/trophies-dark.svg">
-  <img width="900" src="./assets/trophies-light.svg" alt="cubicpp GitHub trophies">
-</picture>
-
-<br>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
   <img width="100%" src="./profile-3d-contrib/profile-gitblock.svg" alt="cubicpp 3D contribution calendar and repository language statistics">
 </picture>
