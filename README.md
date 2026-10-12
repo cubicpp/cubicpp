@@ -22,7 +22,9 @@
 📚 Academic Interests: _Statistics, Linguistics, Computer Science, Artificial Intelligence_\
 🧩 Personal Hobbies: _Food, Hiking, Mountaineering, Anime_\
 🌐 Philosophy I: _Embrace the open-source spirit._\
-🔧 Philosophy II: _Attach importance to the role of software engineering in Agent development._
+🔧 Philosophy II: _Attach importance to the role of software engineering in Agent development.\
+📫 **Email**: [cubicmo@163.com](mailto:cubicmo@163.com)
+
 
 <div>&nbsp;</div>
 
