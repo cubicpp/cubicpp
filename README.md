@@ -1,10 +1,15 @@
 <!-- Layout and coding/developer visuals reused from Peter-JXL/Peter-JXL and sun0225SUN/sun0225SUN. -->
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/capsule-header-dark.svg">
   <img width="100%" src="./assets/capsule-header-light.svg" alt="">
 </picture>
+
+抱歉，该账号目前仅展示日常工具的仓库。若您需要获取某些未公开项目的源代码或相关数据（也许您从别的地方获知），**请通过邮箱与我联系。** 感谢您访问我的 GitHub 主页！🙂
+
+Sorry, this account currently only hosts repositories for my daily utilities. If you need the source code or related data of certain private projects (which you may have heard about elsewhere), **please contact me via email for further discussion.** Thank you for visiting my GitHub profile!🙂
+
+<div align="center">
 
 <table width="100%">
 <tr><td align="left">
