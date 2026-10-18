@@ -18,7 +18,7 @@
 
 📍 Location: _Beijing_\
 👤 Identity: _Undergraduate, Tech Practitioner_\
-💬 Languages: _Chinese, English (very basic French, Japanese, Korean, Vietnamese)_\
+💬 Languages: _Chinese, English_\
 📚 Academic Interests: _Statistics, Linguistics, Computer Science, Artificial Intelligence_\
 🧩 Personal Hobbies: _Food, Hiking, Mountaineering, Anime_\
 🌐 Philosophy I: _Embrace the open-source spirit._\
