@@ -7,7 +7,7 @@
 
 抱歉，该账号目前仅展示日常工具的仓库。若您需要获取某些未公开项目的源代码或相关数据（也许您从别的地方获知），**请通过邮箱与我联系。** 感谢您访问我的 GitHub 主页！🙂
 
-Sorry, this account currently only hosts repositories for my daily utilities. If you need the source code or related data of certain private projects (which you may have heard about elsewhere), **please contact me via email for further discussion.** Thank you for visiting my GitHub profile!🙂
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comic+Relief&size=14&duration=1200&pause=500&color=F78304&background=FFFFFF00&multiline=true&repeat=false&width=1120&height=65&lines=Sorry%2C+this+account+currently+only+hosts+repositories+for+my+daily+utilities.;If+you+need+the+source+code+or+related+data+of+certain+private+projects+%28which+you+may+have+heard+about+elsewhere%29%2C+please+contact+me+via+email+for+further+discussion.;Thank+you+for+visiting+my+GitHub+profile!%F0%9F%99%82)](https://git.io/typing-svg)
 
 <div align="center">
 
